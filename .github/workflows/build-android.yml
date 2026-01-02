@@ -31,6 +31,7 @@ jobs:
         run: ./gradlew assembleDebug --info
 
       - name: Upload debug APK as artifact
+      
         uses: actions/upload-artifact@v4
         with:
           name: NFCGate-debug
